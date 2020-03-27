@@ -28,7 +28,7 @@ if ("geolocation" in navigator) {
 
 //Get weather data from api provider - "Open Weather Maps":
 function getWeather(latitude, longitude) {
-    let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
+    let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}`;
     console.log(api);
 
     //Fetch api data and store it:
